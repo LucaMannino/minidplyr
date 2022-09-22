@@ -37,7 +37,8 @@ on.exit(options(old), add = TRUE)
 stuff inside the man folder is generated automatically
 
 
-
+```{r}
+```
 
 
 

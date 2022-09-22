@@ -18,8 +18,8 @@ select3(df, ind)
 select variables from dataframe
 }
 \examples{
-select2(iris,1:3)
-select2(iris,1)
-select2(iris,0)
+select3(iris,1:3)
+select3(iris,1)
+select3(iris,0)
 
 }

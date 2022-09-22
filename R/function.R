@@ -10,11 +10,13 @@
 #' @export
 #'
 #' @examples
-#' select2(iris,1:3)
-#' select2(iris,1)
-#' select2(iris,0)
+#' select3(iris,1:3)
+#' select3(iris,1)
+#' select3(iris,0)
 #' 
 select3 <- function(df, ind) {
   df[ind]
 }
 
+#usethis::use_test()
+#main thing that you will use is 
