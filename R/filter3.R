@@ -3,7 +3,7 @@
 #' @param df ^dataframe
 #' @param ind ^logical vector
 #'
-#' @return
+#' @return row
 #' @export
 #'
 #' @examples
@@ -11,6 +11,5 @@
 #' filter3(iris,1)
 filter3 <- function(df, ind) {
   df[ind,]
-  
 }
   

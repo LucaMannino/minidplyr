@@ -11,6 +11,9 @@ filter3(df, ind)
 
 \item{ind}{^logical vector}
 }
+\value{
+row
+}
 \description{
 Title
 }
