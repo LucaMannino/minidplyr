@@ -1,4 +1,4 @@
-#'  Select 2
+#'  Select 3
 #'
 #'select variables from dataframe
 #'
@@ -14,7 +14,7 @@
 #' select2(iris,1)
 #' select2(iris,0)
 #' 
-select2 <- function(df, ind) {
+select3 <- function(df, ind) {
   df[ind]
 }
 
