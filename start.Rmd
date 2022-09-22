@@ -1,0 +1,43 @@
+---
+title: "Untitled"
+author: "Luca Mannino"
+date: "22/09/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+#first makes description file second makes
+#one of them allows you to use markdown ( allows you to use markdown syntax)
+```{r}
+usethis::use_description(list(License = "GPL-3"))
+usethis::use_namespace()
+dir.create("R")
+usethis::use_package_doc()
+usethis::use_roxygen_md()
+```
+
+this was run to Import
+                  dplyr in the Description etc
+@import dplyr  in function R can aslo be used.
+can also be done for specific functions
+```{r}
+#usethis::use_package("dplyr")
+```
+
+If you modify global options() or graphics par() in a function of your package (try to avoid it), save the old values and reset when you are done:
+
+old <- options(stringsAsFactors = FALSE)
+on.exit(options(old), add = TRUE)
+
+stuff inside the man folder is generated automatically
+
+
+
+
+
+
